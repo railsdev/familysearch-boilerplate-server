@@ -7,12 +7,12 @@ This is a work in progress.
 
 ## Uses
 
-* node.js
-* coffeescript
-* passport for logging into FamilySearch
-* mongodb for saving user data
-* papertrail for production logging
-* mocha for testing
+* [node.js](http://nodejs.org/)
+* [coffeescript](http://coffeescript.org)
+* [passport](http://passportjs.org/)
+* [mongoose](http://mongoosejs.com/)
+* [winston-papertrail logger](https://github.com/kenperkins/winston-papertrail)
+* [mocha](http://visionmedia.github.com/mocha/)
 
 ## Getting started
 
@@ -22,7 +22,7 @@ Set the FAMILYSEARCH_KEY environment variable to your key
 
 Run server tests with `mocha`
 
-Run the server with `coffee app.coffee` or `node-mon app.coffee`
+Run the server with `coffee app.coffee` or `node-dev app.coffee`
 
 Start up the [client](https://github.com/DallanQ/familysearch-boilerplate-client)
 
